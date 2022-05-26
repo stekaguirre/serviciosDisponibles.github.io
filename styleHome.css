@@ -1,0 +1,58 @@
+.tituloPrincipal{
+    text-align: center;
+}
+
+.tituloCentralizado{
+  padding-left: 10%;
+}
+
+#foto{
+    /*padding: 20px;espacio de lado a lado....  no se que poner*/
+    width: 99%;/*anchura*/
+    height: 2%; /*este no da creo*/
+    border: 10px solid #000000;
+}
+
+.bloqueUno{
+    background: #cccccc;
+    padding: 20px;
+ 
+}
+
+.tituloCentralizado   {
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong {
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+
+.bloqueDos{
+    background: white;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;/*alinear el texto hacia arriba*/
+    width: 10%;
+    margin-right: 15%;
+}
+
+.fondo{
+    width: 50%;
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACTO SERVICIOS DISPONIBLES</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <div class="caja">
+                <h1><img src="imgProyecto/todas.jpg" alt="tablitas"></h1>
+                <p class="titulo">contacto</p>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="productos.html">productos</a></li>
+                        <li><a href="contacto.html">contacto</a></li>
+                    </ul>
+                </nav>
+            </div>  
+        </header>
+        <main class="contacto">
+            <form>
+                <label for="nombreapellido">nombre y apellido</label>
+                <input type="text" id="nombreapellido" class="inputPadon" required >
+                <label for="correoelectronico">correo electronico</label>
+                <input type="email" id="correoelectronico" class="inputPadon"required placeholder="email@dominio.com">
+                <label for="telefono">telefono</label>
+                <input type="tel" id="telefono" class="inputPadon"required placeholder="012 345 67 89">
+                <label for="mensaje">mensaje</label>
+                <textarea cols="70" rows="10" id="mensaje" class="inputPadon"required></textarea>
+                <fieldset>
+                    <legend>¿Como le gustaria que lo contactemos?</legend>
+                    <label for="radioEmail"><input type="radio" name="contacto" value="email" id="radioEmail">email</label>
+                    <label for="radioTelefono"><input type="radio" name="contacto" value="telefono" id="radioTelefono">telefono</label>
+                    <label for="radioEmail"><input type="radio" name="contacto" value="wasap" id="radioWasap"checked>wasap</label>
+                </fieldset> 
+                <fieldset>
+                    <legend>¿En cual horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>tarde</option>
+                        <option>noche</option>
+                    </select>
+                </fieldset>
+                    <label class="checkbox"><input type="checkbox"checked>¿le gustaria recibir novedades de servicios disponibles?</label>         
+            <input type="submit" value="Enviar formulario" class="enviar" ><!--boton enviar-->
+            </form>
+            <table>
+                <thead>
+                    <th>dias de atencion</th>
+                    <th>horario</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>lunes a viernes</td>
+                        <td>08h - 20h</td>
+                    </tr>
+                    <tr>
+                    <td>fin de semana y festivos</td>
+                    <td>12h - 20h</td>
+                    </tr>
+                </tbody>
+            </table>
+            <footer class="pieContacto">
+                <img src="imgProyecto/pie.jpg" alt="combo">
+                <p class="copyright">&copy Copyright ServicioDisponibles </p>
+            </footer>
+        </main>
+        
+</body>
+</html>
+
